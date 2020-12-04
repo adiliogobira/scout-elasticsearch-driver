@@ -4,9 +4,9 @@
 
 ---
 
-[![Packagist](https://img.shields.io/packagist/v/babenkoivan/scout-elasticsearch-driver.svg)](https://packagist.org/packages/babenkoivan/scout-elasticsearch-driver)
-[![Packagist](https://img.shields.io/packagist/dt/babenkoivan/scout-elasticsearch-driver.svg)](https://packagist.org/packages/babenkoivan/scout-elasticsearch-driver)
-[![Build Status](https://travis-ci.com/babenkoivan/scout-elasticsearch-driver.svg?branch=master)](https://travis-ci.com/babenkoivan/scout-elasticsearch-driver)
+[![Packagist](https://img.shields.io/packagist/v/adiliogobira/scout-elasticsearch-driver.svg)](https://packagist.org/packages/adiliogobira/scout-elasticsearch-driver)
+[![Packagist](https://img.shields.io/packagist/dt/adiliogobira/scout-elasticsearch-driver.svg)](https://packagist.org/packages/adiliogobira/scout-elasticsearch-driver)
+[![Build Status](https://travis-ci.com/adiliogobira/scout-elasticsearch-driver.svg?branch=master)](https://travis-ci.com/adiliogobira/scout-elasticsearch-driver)
 [![Donate](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://www.paypal.me/babenkoi)
 
 ---
@@ -53,7 +53,7 @@ The package has been tested in the following configuration:
 Use composer to install the package:
 
 ```
-composer require babenkoivan/scout-elasticsearch-driver
+composer require adiliogobira/scout-elasticsearch-driver
 ```
 
 If you are using Laravel version &lt;= 5.4 or [the package discovery](https://laravel.com/docs/5.5/packages#package-discovery)
@@ -533,11 +533,11 @@ Note, that this method returns a collection of payloads, because of possibility 
 
 Recently I've released a new Elasticsearch ecosystem for Laravel, it includes:
 
-* [Elastic Scout Driver](https://github.com/babenkoivan/elastic-scout-driver) - a generic Elasticsearch driver for Laravel Scout.
+* [Elastic Scout Driver](https://github.com/adiliogobira/elastic-scout-driver) - a generic Elasticsearch driver for Laravel Scout.
 It's perfect, if you need to build a simple search in your Laravel application. 
-* [Elastic Scout Driver Plus](https://github.com/babenkoivan/elastic-scout-driver-plus) - an extension for Elastic Scout Driver.
+* [Elastic Scout Driver Plus](https://github.com/adiliogobira/elastic-scout-driver-plus) - an extension for Elastic Scout Driver.
 If you want to take advantage of such Elasticsearch features as bool queries, highlighting, etc., it's a way to go.
-* [Elastic Migrations](https://github.com/babenkoivan/elastic-migrations) - an easy way to create, delete or update 
+* [Elastic Migrations](https://github.com/adiliogobira/elastic-migrations) - an easy way to create, delete or update 
 Elasticsearch index schema and share it with your teammates. It has quite similar interface to Laravel database migrations.
 
 If any of it sounds interesting to you and you want to get more details, please read 
